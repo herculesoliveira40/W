@@ -1,0 +1,33 @@
+@charset "UTF-8";
+#navegacao{
+	display: flex;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	align-content: center;
+	align-items: center;
+	list-style: none;
+	/*justify-content: center;*/
+	/*flex-direction: column;*/
+}
+.item{
+	width: 100%;
+	padding: 5px;
+	flex-basis: auto;
+
+}
+.item:nth-child(1){
+	order: 1;
+}
+.item:nth-child(2){
+	order: 2;
+}
+.item:nth-child(3){
+	order: 3;
+}
+.item:nth-child(4){
+	order: 4;
+}
+.item:nth-child(5){
+	order: 5;
+}
